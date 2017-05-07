@@ -12,11 +12,6 @@ Reference:
 "Bayesian Probabilistic Matrix Factorization using MCMC", R. Salakhutdinov and A.Mnih., ICML 2008
 Matlab code: http://www.cs.toronto.edu/~rsalakhu/BPMF.html
 "Large-scale Parallel Collaborative Filtering for the Netflix Prize", Y. Zhou, D. Wilkinson, R. Schreiber and R. Pan, 2008
-Install:
-
-# clone repoisitory
-git clone git@github.com:chyikwei/recommend.git
-cd recommend
 
 # install numpy & scipy
 pip install -r requirements.txt
@@ -58,6 +53,3 @@ coverage report -m
 Uninstall:
 
 pip uninstall recommend
-Notes:
-
-Old version code can be found in v0.0.1. It contains a Probabilistic Matrix Factorization model with theano implementation.
