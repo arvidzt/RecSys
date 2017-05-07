@@ -1,5 +1,3 @@
-[![Build Status](https://circleci.com/gh/chyikwei/recommend.png?&style=shield)](https://circleci.com/gh/gh/chyikwei/recommend)
-[![Coverage Status](https://coveralls.io/repos/github/chyikwei/recommend/badge.svg?branch=master)](https://coveralls.io/github/chyikwei/recommend?branch=master)
 Recommend
 =========
 
@@ -21,9 +19,6 @@ Reference:
 Install:
 --------
 ```
-# clone repoisitory
-git clone git@github.com:chyikwei/recommend.git
-cd recommend
 
 # install numpy & scipy
 pip install -r requirements.txt
@@ -82,6 +77,3 @@ Uninstall:
 pip uninstall recommend
 ```
 
-Notes:
-------
-- Old version code can be found in `v0.0.1`. It contains a Probabilistic Matrix Factorization model with theano implementation.
